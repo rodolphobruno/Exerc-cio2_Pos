@@ -13,7 +13,7 @@ export class NewsPage implements OnInit {
 
   constructor() { 
     this.image = "/assets/images/red_bull_racing_2019.jpg";  
-    this.description = "This is a Red Bull Racing F1";
+    this.description = "This is a Red Bull Racing F1 - 2019";
     this.message = "Drivers: Max Verstappen and Alexander Albon"
   }
 
