@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsPage implements OnInit {
 
-  constructor() { }
+  private image : string;
+  private description : string;
+  private message : string;
+
+  constructor() { 
+    this.image = "/assets/images/red_bull_racing_2019.jpg";  
+    this.description = "This is a Red Bull Racing F1";
+    this.message = "Drivers: Max Verstappen and Alexander Albon"
+  }
 
   ngOnInit() {
   }
